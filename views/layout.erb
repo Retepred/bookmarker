@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" /> 
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='/reset.css'>
+    <link rel='stylesheet' href='/styles.css'>
+    <title>Cookbook</title>
+  </head>
+
+  <body>
+    <header>
+      <h1><span class='branding'>Bookmrkr</span> &ndash; Easy Browsing.</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href='/' style="text-decoration:none;">Home</a></li>
+        <li><a href='/bookmarks' style="text-decoration:none;">Bookmarks </a></li>
+        <li><a href='/bookmarks/new' style="text-decoration:none;">New Bookmark</a></li>
+        <li><a href='/bookmarks/search' style="text-decoration:none;">Search Bookmarks</a></li>
+
+      </ul>
+    </nav>
+    <%= yield %>
+  </body>
+</html>
